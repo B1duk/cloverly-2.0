@@ -1,0 +1,66 @@
+.map_block {
+    padding-top: 150px;
+    width: auto;
+    text-align: center;
+
+    @media screen and (max-width:420px) {
+        text-align: left;
+    }
+
+    &__textof {
+        width: 940px;
+        padding-left: 300px;
+
+        @media screen and (max-width:420px) {
+            width: 140px;
+            padding-left: 10px;
+        }
+    }
+
+    &__text {
+        width: 980px;
+
+        @media screen and (max-width:420px) {
+            width: 180px;
+            padding-left: 10px;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        margin-left: 450px;
+
+        @media screen and (max-width:420px) {
+            display: block;
+            margin-left: 10px;
+
+        }
+
+        &__btn {
+            margin-right: 12px;
+
+            @media screen and (max-width:420px) {
+                width: 50px;
+
+            }
+        }
+
+        &__bton {
+            margin-left: 12px;
+
+            @media screen and (max-width:420px) {
+                margin-left: 0px;
+                width: 50px;
+            }
+        }
+    }
+}
+
+.map-img {
+    margin-top: 100px;
+    margin-left: 200px;
+
+    @media screen and (max-width:420px) {
+        display: none;
+    }
+}

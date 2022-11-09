@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+.header {
+    width: auto;
+    padding-top: 15px;
+    background-color: $active_color;
+    box-shadow: 0px 5.69882px 9.49804px rgba(19, 40, 29, 0.225);
+    display: flex;
+    @media screen and (max-width:768px){
+        width: 1268px;
+    }
+    &__logo {
+        margin-left: 177px;
+    }
+    
+    &__nav {
+        margin-right: 35px;
+        
+    }
+}

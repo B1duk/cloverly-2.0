@@ -1,0 +1,62 @@
+@import './variables.scss';
+
+.activities {
+    width: auto;
+    height: 553px;
+    padding-top: 150px;
+    background-color: #F2F4E8;
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 400px) {
+        width: 80%;
+        margin-top: 1200px;
+    }
+
+    &__block {
+        width: auto;
+        height: 328px;
+        margin: 0px auto 0 auto;
+        padding-top: 75px;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F4E8 217.84%), #193844;
+        border-radius: 30px;
+        @media screen and (max-width: 1024px) {
+            width: 100%;
+        }
+    
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    
+        @media screen and (max-width: 400px) {
+            width: 80%;
+            margin-top: 1200px;
+        }
+        &__title {
+            color: $light_color;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 48px;
+            margin: 15px auto 10px auto;
+        }
+
+        &__descr {
+            width: 400px;
+            margin: 0px auto 40px auto;
+            color: $light_color;
+            font-size: 21px;
+            font-family: 'Roboto', sans-serif;
+            line-height: 28px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+}
